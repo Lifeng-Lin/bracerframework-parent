@@ -1,0 +1,97 @@
+{
+  "groups": [
+    {
+      "name": "bracerframework.cors",
+      "type": "cn.bracerframework.boot.properties.CorsProperties",
+      "sourceType": "cn.bracerframework.boot.properties.CorsProperties"
+    },
+    {
+      "name": "bracerframework.security",
+      "type": "cn.bracerframework.boot.properties.SecurityProperties",
+      "sourceType": "cn.bracerframework.boot.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "bracerframework.cors.allowed-origins",
+      "type": "java.util.List",
+      "description": "跨域允许来源",
+      "sourceType": "cn.bracerframework.boot.properties.CorsProperties"
+    },
+    {
+      "name": "bracerframework.cors.exposed-headers",
+      "type": "java.util.List",
+      "description": "跨域允许包含的头信息",
+      "sourceType": "cn.bracerframework.boot.properties.CorsProperties"
+    },
+    {
+      "name": "bracerframework.cors.allowed-methods",
+      "type": "java.util.List",
+      "description": "跨域允许的方法",
+      "sourceType": "cn.bracerframework.boot.properties.CorsProperties"
+    },
+    {
+      "name": "bracerframework.cors.allow-credentials",
+      "type": "java.lang.Boolean",
+      "description": "是否允许客户端携带验证信息",
+      "sourceType": "cn.bracerframework.boot.properties.CorsProperties"
+    },
+    {
+      "name": "bracerframework.cors.max-age",
+      "type": "java.lang.Long",
+      "description": "预检请求的有效期",
+      "sourceType": "cn.bracerframework.boot.properties.CorsProperties"
+    },
+    {
+      "name": "bracerframework.security.public-paths",
+      "type": "java.util.Set",
+      "description": "公用访问路径",
+      "sourceType": "cn.bracerframework.boot.properties.SecurityProperties"
+    }
+  ],
+  "hints": [
+    {
+      "name": "bracerframework.cors.allowed-methods",
+      "values": [
+        {
+          "value": "*"
+        },
+        {
+          "value": "GET"
+        },
+        {
+          "value": "HEAD"
+        },
+        {
+          "value": "POST"
+        },
+        {
+          "value": "PUT"
+        },
+        {
+          "value": "PATCH"
+        },
+        {
+          "value": "DELETE"
+        },
+        {
+          "value": "OPTIONS"
+        },
+        {
+          "value": "TRACE"
+        }
+      ]
+    },
+    {
+      "name": "bracerframework.cors.allow-credentials",
+      "values": [
+        {
+          "value": "true"
+        },
+        {
+          "value": "false"
+        }
+      ]
+    }
+  ]
+}
