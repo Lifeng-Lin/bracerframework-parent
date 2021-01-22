@@ -9,14 +9,10 @@
     <version>1.0.0.RELEASE</version>
     <modules>
         <module>bracerframework-core</module>
-        <module>bracerframework-mybatis</module>
         <module>bracerframework-mybatis-plus</module>
         <module>bracerframework-redis</module>
-        <module>bracerframework-redisson</module>
         <module>bracerframework-web</module>
         <module>bracerframework-boot</module>
-        <module>bracerframework-jd</module>
-        <module>bracerframework-wechat</module>
     </modules>
     <packaging>pom</packaging>
 
