@@ -6,7 +6,7 @@ import cn.hutool.db.sql.Condition;
  * SQL相关工具类，包括相关SQL语句拼接等
  * 扩展自 {@link cn.hutool.db.sql.SqlUtil}
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 public class SqlUtil extends cn.hutool.db.sql.SqlUtil {
 

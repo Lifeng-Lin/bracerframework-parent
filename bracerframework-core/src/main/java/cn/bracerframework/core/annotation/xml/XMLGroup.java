@@ -17,7 +17,7 @@ import java.util.HashMap;
  *      2、如果复合节点为列表，节点映射字段应为 {@link java.util.List} 类型，并配置注解的 type 属性
  * </pre>
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)

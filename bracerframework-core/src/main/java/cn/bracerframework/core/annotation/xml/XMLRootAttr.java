@@ -13,7 +13,7 @@ import java.lang.annotation.Target;
  *     2、仅在被 {@link XMLObject} 标注的映射类中可用
  * </pre>
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)

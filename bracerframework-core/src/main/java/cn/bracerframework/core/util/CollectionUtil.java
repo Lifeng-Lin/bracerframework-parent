@@ -6,7 +6,7 @@ import java.util.Collection;
  * 集合相关工具类，包括数组
  * 扩展自 {@link cn.hutool.core.collection.CollectionUtil}
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 public class CollectionUtil extends cn.hutool.core.collection.CollectionUtil {
 

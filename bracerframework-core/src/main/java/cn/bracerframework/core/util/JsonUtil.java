@@ -14,7 +14,7 @@ import java.util.List;
  * JSON 操作工具<br/>
  * 使用了 jackson-databind、commons-pool2 依赖包
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 public class JsonUtil {
 

@@ -3,7 +3,7 @@ package cn.bracerframework.core.exception;
 /**
  * 用户操作异常
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 public class OperationException extends RuntimeException {
     private static final long serialVersionUID = 1L;

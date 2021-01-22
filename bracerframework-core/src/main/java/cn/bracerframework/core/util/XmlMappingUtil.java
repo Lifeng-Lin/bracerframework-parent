@@ -28,7 +28,7 @@ import java.util.Map;
  * XML -> pojo 解析工具类<br>
  * 此工具依赖第三方 dom4j、javax.servlet-api 包
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 public class XmlMappingUtil {
 

@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * 分页对象
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 public class PageInfo implements Serializable {
     private static final long serialVersionUID = 1L;

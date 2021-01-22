@@ -14,7 +14,7 @@ import java.lang.annotation.Target;
  *      1、将叶子节点映射到 pojo 指定的 int、date、string 类型字段
  * </pre>
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)

@@ -6,7 +6,7 @@ import cn.hutool.core.util.CharsetUtil;
  * 随机工具类
  * 扩展自 {@link cn.hutool.core.util.RandomUtil}
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 public class RandomUtil extends cn.hutool.core.util.RandomUtil {
 

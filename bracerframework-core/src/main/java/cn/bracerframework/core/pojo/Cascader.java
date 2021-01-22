@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 级联选择数据对象
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 public class Cascader implements Serializable {
     private static final long serialVersionUID = 1L;

@@ -8,7 +8,7 @@ import cn.hutool.extra.template.TemplateUtil;
  * 字符串工具类
  * 扩展自 {@link cn.hutool.core.util.StrUtil}
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 public class StrUtil extends cn.hutool.core.util.StrUtil {
 

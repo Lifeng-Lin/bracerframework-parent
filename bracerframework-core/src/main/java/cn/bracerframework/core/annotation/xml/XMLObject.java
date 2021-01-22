@@ -14,7 +14,7 @@ import java.lang.annotation.Target;
  * 		1、XML 类报文解析成对象
  * </pre>
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)

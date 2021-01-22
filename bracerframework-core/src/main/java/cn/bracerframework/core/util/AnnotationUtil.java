@@ -13,7 +13,7 @@ import java.util.Map;
  * 注解工具类<br>
  * 扩展自 {@link cn.hutool.core.annotation.AnnotationUtil}
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 public class AnnotationUtil extends cn.hutool.core.annotation.AnnotationUtil {
 

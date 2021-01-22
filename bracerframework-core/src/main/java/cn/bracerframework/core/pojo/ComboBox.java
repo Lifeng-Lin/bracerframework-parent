@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 下拉框数据对象
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 public class ComboBox implements Serializable {
     private static final long serialVersionUID = 1L;

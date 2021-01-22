@@ -31,7 +31,7 @@ import java.util.Map;
  * 扩展自 {@link cn.hutool.http.HttpUtil}
  * 此工具部分方法依赖第三方 httpclient 包
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 public class HttpUtil extends cn.hutool.http.HttpUtil {
 
@@ -235,7 +235,7 @@ public class HttpUtil extends cn.hutool.http.HttpUtil {
     /**
      * 响应数据对象
      *
-     * @author Dracula
+     * @author Lifeng.Lin
      */
     public static class HttpResponse {
 
@@ -310,7 +310,7 @@ public class HttpUtil extends cn.hutool.http.HttpUtil {
     /**
      * HTTP POST请求参数对象
      *
-     * @author Dracula
+     * @author Lifeng.Lin
      */
     public static class NameValuePairPost implements NameValuePair {
 

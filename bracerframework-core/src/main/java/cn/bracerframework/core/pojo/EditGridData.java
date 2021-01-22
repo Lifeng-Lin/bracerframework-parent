@@ -8,7 +8,7 @@ import java.util.List;
  * 编辑列表提交的数据
  *
  * @param <T> 列表数据类型，作为入参时一定记得写，否则默认使用 HashMap
- * @author Dracula
+ * @author Lifeng.Lin
  */
 public class EditGridData<T> implements Serializable {
     private static final long serialVersionUID = 1L;

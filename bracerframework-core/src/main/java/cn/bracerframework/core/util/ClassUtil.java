@@ -11,7 +11,7 @@ import java.lang.reflect.Modifier;
  * 类工具类 <br>
  * 扩展自 {@link cn.hutool.core.util.ClassUtil}
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 public class ClassUtil extends cn.hutool.core.util.ClassUtil {
 

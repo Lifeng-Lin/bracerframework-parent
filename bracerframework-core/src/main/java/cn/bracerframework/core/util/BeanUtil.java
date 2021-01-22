@@ -6,7 +6,7 @@ import cn.hutool.core.convert.Convert;
  * Bean工具类
  * 扩展自 {@link cn.hutool.core.bean.BeanUtil}
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 public class BeanUtil extends cn.hutool.core.bean.BeanUtil {
 

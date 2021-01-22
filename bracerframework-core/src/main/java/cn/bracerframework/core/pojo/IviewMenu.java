@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * iView - 菜单树对象
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 public class IviewMenu extends Tree {
     private static final long serialVersionUID = 1L;

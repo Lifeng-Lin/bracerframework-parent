@@ -10,7 +10,7 @@ import java.util.List;
  * 反射工具类
  * 扩展自 {@link cn.hutool.core.util.ReflectUtil}
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 public class ReflectUtil extends cn.hutool.core.util.ReflectUtil {
 

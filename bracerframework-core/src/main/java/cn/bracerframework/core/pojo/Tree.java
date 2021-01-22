@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * 树形结构根对象
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 public class Tree implements Serializable {
     private static final long serialVersionUID = 1L;

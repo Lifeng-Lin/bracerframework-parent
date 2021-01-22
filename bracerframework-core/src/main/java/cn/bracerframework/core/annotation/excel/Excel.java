@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 /**
  * Excel 列映射pojo注解
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)

@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * iView - 树对象
  *
- * @author Dracula
+ * @author Lifeng.Lin
  */
 public class IviewTree extends Tree {
     private static final long serialVersionUID = 1L;
