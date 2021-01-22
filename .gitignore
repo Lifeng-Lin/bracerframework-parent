@@ -21,7 +21,14 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+#剔除项目
 /bracerframework-mybatis/
 /bracerframework-redisson/
 /bracerframework-jd/
 /bracerframework-wechat/
+#剔除测试包
+/bracerframework-core/src/test/
+/bracerframework-mybatis-plus/src/test/
+/bracerframework-redis/src/test/
+/bracerframework-web/src/test/
+/bracerframework-boot/src/test/
