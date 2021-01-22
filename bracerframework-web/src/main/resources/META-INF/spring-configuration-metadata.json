@@ -1,0 +1,86 @@
+{
+  "groups": [
+    {
+      "name": "bracerframework.transaction",
+      "type": "cn.bracerframework.web.transaction.properties.TransactionProperties",
+      "sourceType": "cn.bracerframework.web.transaction.properties.TransactionProperties"
+    },
+    {
+      "name": "bracerframework.commons-multipart",
+      "type": "cn.bracerframework.web.mvc.properties.FileUploadProperties",
+      "sourceType": "cn.bracerframework.web.mvc.properties.FileUploadProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "bracerframework.transaction.expression",
+      "type": "java.lang.String",
+      "description": "监听的事务的切入点",
+      "sourceType": "cn.bracerframework.web.transaction.properties.TransactionProperties"
+    },
+    {
+      "name": "bracerframework.transaction.time-out",
+      "type": "java.lang.Integer",
+      "description": "事务超时时间 单位毫秒",
+      "defaultValue": "60000",
+      "sourceType": "cn.bracerframework.web.transaction.properties.TransactionProperties"
+    },
+    {
+      "name": "bracerframework.transaction.method-name",
+      "type": "java.util.Map",
+      "description": "需要监听的事务方法，key为监听的方法名；value为回滚操作对应的异常",
+      "sourceType": "cn.bracerframework.web.transaction.properties.TransactionProperties"
+    },
+    {
+      "name": "bracerframework.transaction.method-name-start",
+      "type": "java.util.Map",
+      "description": "需要监听的事务方法，key为监听指定前缀的方法；value为回滚操作对应的异常",
+      "sourceType": "cn.bracerframework.web.transaction.properties.TransactionProperties"
+    },
+    {
+      "name": "bracerframework.commons-multipart.encoding",
+      "type": "java.lang.String",
+      "description": "编码",
+      "defaultValue": "UTF-8",
+      "sourceType": "cn.bracerframework.web.mvc.properties.FileUploadProperties"
+    },
+    {
+      "name": "bracerframework.commons-multipart.max-upload-size-per-file",
+      "type": "java.lang.Long",
+      "description": "单个文件允许的文件大小（字节） 默认：1M = 1 * 1024 * 1024",
+      "sourceType": "cn.bracerframework.web.mvc.properties.FileUploadProperties"
+    },
+    {
+      "name": "bracerframework.commons-multipart.max-upload-size",
+      "type": "java.lang.Long",
+      "description": "文件上传的最大值（字节） 默认：5M = 5 * 1024 * 1024",
+      "sourceType": "cn.bracerframework.web.mvc.properties.FileUploadProperties"
+    },
+    {
+      "name": "bracerframework.commons-multipart.max-in-memory-size",
+      "type": "java.lang.Integer",
+      "description": "文件上传时写入内存的最大值（字节） 默认：10KB = 10 * 1024",
+      "sourceType": "cn.bracerframework.web.mvc.properties.FileUploadProperties"
+    },
+    {
+      "name": "bracerframework.commons-multipart.upload-temp-dir",
+      "type": "java.lang.String",
+      "description": "上传文件临时目录 默认：web 应用程序 servlet 容器的临时目录",
+      "sourceType": "cn.bracerframework.web.mvc.properties.FileUploadProperties"
+    },
+    {
+      "name": "bracerframework.commons-multipart.preserve-filename",
+      "type": "java.lang.Boolean",
+      "description": "是否保留客户端发送的文件名",
+      "defaultValue": "false",
+      "sourceType": "cn.bracerframework.web.mvc.properties.FileUploadProperties"
+    },
+    {
+      "name": "bracerframework.commons-multipart.resolve-lazily",
+      "type": "java.lang.Boolean",
+      "description": "是否延迟文件解析",
+      "defaultValue": "false",
+      "sourceType": "cn.bracerframework.web.mvc.properties.FileUploadProperties"
+    }
+  ]
+}
